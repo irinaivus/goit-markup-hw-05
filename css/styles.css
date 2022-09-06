@@ -468,7 +468,8 @@ img {
   border-radius: 4px;
   padding: 6px 22px;
   transition: color var(--transition-duration),
-    background-color var(--transition-duration);
+    background-color var(--transition-duration),
+    box-shadow var(--transition-duration);
 }
 
 .button-item {
@@ -514,13 +515,13 @@ img {
 }
 
 .portfolio-card {
+  cursor: pointer;
   border: 1px solid var(--border-header);
   width: 370px;
   transition: box-shadow var(--transition-duration);
 }
 .portfolio-card:hover {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
 }
 .card-wrapper {
   position: relative;
@@ -536,7 +537,7 @@ img {
   line-height: 1.56;
   letter-spacing: 0.03em;
   padding: 63px 24px;
-  height: 100%;
+  height: 101%;
   width: 100%;
   /* overflow: auto; */
   transform: translateY(100%);
